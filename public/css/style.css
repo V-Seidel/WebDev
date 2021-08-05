@@ -1,0 +1,36 @@
+/* Fonte */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* Cores Gerais */
+:root {
+	--light-color: #bae8e8;
+	--secundary-color: #2c698d;
+	--dark-color: #272643;
+}
+
+/* Configurações Gerais */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+li,
+a,
+button {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 18px;
+	color: var(--light-color);
+	text-decoration: none !important;
+}
+
+/* Página Principal */
+.banner {
+	background: url(../images/backgroundImage.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 80vh;
+}

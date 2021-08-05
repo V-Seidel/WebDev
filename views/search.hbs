@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Busca</title>
+    
+    
+    <!-- CSS/Bootstrap Referência-->
+    <link rel='stylesheet' href='css/style.css' />
+    <link rel='stylesheet' href='css/navBarStyle.css' />
+    <link rel='stylesheet' href='css/searchPageStyle.css' />
+
+</head>
+
+
+<body>
+    <div class="banner">
+        <header>
+            <!-- Barra de navegação -->
+            <img class="logo" src="images/logo.svg" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="/">Procurar dispositivos</a></li>
+                    <li><a href="/admin">Administrador</a></li>
+                    <li><a href="#aboutus">Sobre nós</a></li>   
+                </ul>
+            </nav>
+            <a class="cta" href=#><button>Contato</button></a>
+        </header>
+
+    <!-- Conteúdo -->
+    
+        <div class="wrapper">
+            <div class="search">
+                <a href='' target="_blank" hidden></a>
+                <input id='searchInput' type="text" onkeyup="showResults(this.value)" placeholder="Digite o dispositivo..."/>
+                <div id="livesearch" class='hide'>
+                    That <!-- Local onde ficam as sugestões -->
+                </div>
+                <button type="submit" id="searchButton">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>  
+    </div>
+    
+    <div class="container">
+        <main class="grid">
+            <article>
+                <img src="images/antennaLogo.png">
+                <div class="text">
+                    <h3>Procurar</h3>
+                    <p>Digite o nome do equipamento que deseja encontrar</p>
+                </div>
+            </article>  
+            
+            <article>
+                <img src="images/waitLogo.png">
+                <div class="text">
+                    <h3>Esperar</h3>
+                    <p>Aguarde de cinco a dez segundos para ser redirecionado à página de resultado</p>
+                </div>
+            </article>  
+            
+            <article>
+                <img src="images/datatableLogo.png">
+                <div class="text">
+                    <h3>Encontrar</h3>
+                    <p>Agora é só olhar o nome da sala para encontrar o equipamento além de ter as últimas 5 localizações do mesmo</p>
+                </div>
+            </article>          
+        </main>
+    </div>
+
+    <script src='scripts.js'></script> 
+</body>
+</html>

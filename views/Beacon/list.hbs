@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beacons</title>
+    
+    
+    <!-- CSS Referência-->
+    <link rel='stylesheet' href='/css/style.css' />
+    <link rel='stylesheet' href='/css/navBarStyle.css' />
+    <link rel='stylesheet' href='/css/beaconPageStyle.css' />
+
+</head>
+
+
+<body>
+    <div class="banner">
+        <header>
+            <!-- Barra de navegação -->
+            <img class="logo" src="/images/logo.svg" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="/">Procurar dispositivos</a></li>
+                    <li><a href="/admin">Administrador</a></li>
+                    <li><a href="#aboutus">Sobre nós</a></li>   
+                </ul>
+            </nav>
+            <a class="cta" href=#><button>Contato</button></a>
+        </header>
+
+    <!-- Conteúdo --> 
+        <div class="container">
+            <h3 id="tableTitle">
+                <a href="/beacon" id="plusA">
+                    Novo (Manual)
+                    <i class="fa fa-plus" id="plusIcon"></i>
+                </a>
+                Tabela de Beacons
+            </h3>
+            <table class="table responsive">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Endereço MAC</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each list}}
+                    
+                    <tr style="text-align:center">
+                        <td>{{this.name}}</td>
+                        <td>{{this.MAC_Beacon}}</td>
+                        <td>{{this.status}}</td>
+                        <td>
+                            <a href='/beacon/{{this._id}}'>
+                                <i class="fa fa-pencil fa-lg" aria-hidden="true" id="iconTable"></i>
+                            </a>
+                            <a href="/beacon/delete/{{this._id}}" onclick="return confirm('Tem certeza que quer deletar esse beacon?');">
+                                <i class="fa fa-trash-o" aria-hidden="true" id="iconTable"></i>
+                            </a>
+                        </td>
+                    </tr>
+                    
+                    {{/each}}
+                </tbody>
+            </table>
+        </div>   
+    </div>
+    
+    
+
+    <script src='/scripts.js'></script> 
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    
+    
+    <!-- CSS -->
+    <link rel='stylesheet' href='css/style.css' />
+    <link rel='stylesheet' href='css/navBarStyle.css' />
+    <link rel='stylesheet' href='css/adminPageStyle.css' />
+
+    
+</head>
+
+
+<body>
+    <div class="banner">
+        <header>
+            <!-- Barra de navegação -->
+            <img class="logo" src="images/logo.svg" alt="logo">
+            <nav>
+                <ul class="nav__links">
+                    <li><a href="/">Procurar dispositivos</a></li>
+                    <li><a href="/admin">Administrador</a></li>
+                    <li><a href="#aboutus">Sobre nós</a></li>   
+                </ul>
+            </nav>
+            <a class="cta" href=#><button>Contato</button></a>
+        </header>
+
+    <!-- Conteúdo -->
+        <div class="container">
+            <main class="grid">
+                <article>
+                    <img src="images/antennaLogo.png">
+                    <div class="text">
+                        <h3>Antenas</h3>
+                        <p>Crie, edite e delete as antenas</p>
+                        <button class="cardButton">Antenas</button>
+                    </div>
+                </article>  
+                
+                <article>
+                    <img src="images/beaconLogo.png">
+                    <div class="text">
+                        <h3>Beacons</h3>
+                        <p>Crie, edite e delete os beacons</p>
+                        <button class="cardButton" onclick="window.location.href='beacon/list.hbs'">Beacons</button>
+                    </div>
+                </article>  
+                
+                <article>
+                    <img src="images/eventLogo.png">
+                    <div class="text">
+                        <h3>Eventos</h3>
+                        <p>Visualize todos os eventos ocorridos</p>
+                        <button class="cardButton">Eventos</button>
+                    </div>
+                </article>          
+            </main>
+        
+        </div>
+            
+    </div>
+    
+    
+
+    <script src='scripts.js'></script> 
+</body>
+</html>

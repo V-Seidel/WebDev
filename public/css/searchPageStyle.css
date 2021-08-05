@@ -1,0 +1,138 @@
+/* Fonte */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+/* Cores Gerais */
+:root {
+	--light-color: #bae8e8;
+	--secundary-color: #2c698d;
+	--dark-color: #272643;
+}
+
+/* Barra de Pesquisa */
+.wrapper {
+	max-width: 450px;
+	margin: 150px auto;
+}
+
+.wrapper.search {
+	background: #fff;
+	width: 100%;
+	border-radius: 5px;
+	position: relative;
+}
+
+.search input {
+	height: 55px;
+	width: 100%;
+	outline: none;
+	border: none;
+	border-radius: 5px;
+	padding: 0 60px 0 20px;
+	font-size: 18px;
+}
+
+.search.active input {
+	border-radius: 5px 5px 0 0;
+}
+
+.search.livesearch {
+	padding: 0;
+	opacity: 0;
+	pointer-events: none;
+	max-height: 280px;
+	overflow: auto;
+}
+
+.search.active.livesearch {
+	padding: 10px 8px;
+	opacity: 1;
+	pointer-events: auto;
+}
+
+.livesearch a {
+	list-style: none;
+	padding: 8px 12px;
+	display: none;
+	width: 100%;
+	cursor: default;
+	border-radius: 3px;
+}
+
+.search.active.livesearch a {
+	display: block;
+}
+
+.livesearch a:hover {
+	background: #f2f2f2;
+}
+
+.search.icon {
+	position: relative;
+	right: 0px;
+	top: 0px;
+	height: 55px;
+	width: 55px;
+	text-align: center;
+	line-height: 55px;
+	font-size: 20px;
+	color: var(--dark-color);
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}
+
+#searchButton {
+	position: relative;
+}
+
+/* Cards na parte debaixo da página de search */
+.grid {
+	margin: 50px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 80px;
+	align-items: center;
+}
+
+.grid > article {
+	background: var(--light-color);
+	border: none;
+	box-shadow: 2px 2px 6px 0px rgba(var(--dark-color), 3);
+	border-radius: 20px;
+	text-align: center;
+	width: 250px;
+	transition: transform 0.3s;
+}
+
+.grid > article:hover {
+	transform: translateY(5px);
+	box-shadow: 2px 2px 6px 0px rgba(var(--dark-color), 3);
+}
+
+.grid > article img {
+	width: 80%;
+	height: auto;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+p {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: var(--dark-color);
+	text-decoration: none !important;
+}
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: var(--dark-color);
+	text-decoration: none !important;
+}
