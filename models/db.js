@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 mongoose.set('useCreateIndex', true);
 mongoose.set('useFindAndModify', false);
-mongoose.connect('mongodb+srv://Seidel:grepolis123@cluster0.nenbp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+mongoose.connect('mongodb+srv://Seidel:password@cluster0.nenbp.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
 {useUnifiedTopology:true, useNewUrlParser:true}, (err) => {
     if(!err){
         console.log('Conexão com o banco de dados estabelecida.');
