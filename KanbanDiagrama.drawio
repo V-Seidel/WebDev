@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-08-22T13:17:03.684Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="BKwyLAmKtbHGkQmcuod-" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-25T16:52:35.247Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="Nd0na1kxRXVx_c7SqL_z" version="21.6.9" type="github">
   <diagram id="wFE0QG_FPsp0jaGvCLVb" name="Page-1">
-    <mxGraphModel dx="1360" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1565" dy="916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_5mSTuPxr-ZiKRkBDSY7-1" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" parent="1" vertex="1">
-          <mxGeometry x="160" y="80" width="240" height="440" as="geometry" />
+          <mxGeometry x="160" y="280" width="240" height="440" as="geometry" />
         </mxCell>
         <object label="TO DO" status="New" id="_5mSTuPxr-ZiKRkBDSY7-2">
           <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="_5mSTuPxr-ZiKRkBDSY7-1" vertex="1">
@@ -28,7 +28,7 @@
           </mxCell>
         </object>
         <object label="&lt;font style=&quot;font-size: 14px;&quot;&gt;Visualização de Dados&lt;/font&gt;" placeholders="1" id="TxZ0ryvqJ0PURnpC9VBf-45">
-          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" vertex="1" parent="_5mSTuPxr-ZiKRkBDSY7-2">
+          <mxCell style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=swimlane;fontStyle=1;spacingTop=0;rounded=1;arcSize=9;points=[];sketch=1;fontFamily=Permanent Marker;hachureGap=8;fillWeight=1;" parent="_5mSTuPxr-ZiKRkBDSY7-2" vertex="1">
             <mxGeometry x="20" y="321" width="80" height="80" as="geometry" />
           </mxCell>
         </object>
@@ -37,72 +37,112 @@
             <mxGeometry x="120" y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ANALISE DE REQUISITOS&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="240" height="40" as="geometry" />
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxZ0ryvqJ0PURnpC9VBf-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-9" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="80" width="240" height="440" as="geometry" />
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;ANALISE DE REQUISITOS&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" parent="1" vertex="1">
+          <mxGeometry x="160" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-9" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="280" width="240" height="440" as="geometry" />
         </mxCell>
         <object label="TO DO" status="New" id="TxZ0ryvqJ0PURnpC9VBf-10">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-9">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="TxZ0ryvqJ0PURnpC9VBf-9" vertex="1">
             <mxGeometry y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
         <object label="DONE" status="In progress" id="TxZ0ryvqJ0PURnpC9VBf-14">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-9">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" parent="TxZ0ryvqJ0PURnpC9VBf-9" vertex="1">
             <mxGeometry x="120" y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-17" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;DESIGN&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" vertex="1" parent="1">
-          <mxGeometry x="400" y="40" width="240" height="40" as="geometry" />
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxZ0ryvqJ0PURnpC9VBf-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-18" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="80" width="240" height="440" as="geometry" />
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-17" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 14px;&quot;&gt;DESIGN&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" parent="1" vertex="1">
+          <mxGeometry x="400" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-18" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="280" width="240" height="440" as="geometry" />
         </mxCell>
         <object label="TO DO" status="New" id="TxZ0ryvqJ0PURnpC9VBf-19">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-18">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="TxZ0ryvqJ0PURnpC9VBf-18" vertex="1">
             <mxGeometry y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
         <object label="DONE" status="In progress" id="TxZ0ryvqJ0PURnpC9VBf-23">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-18">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" parent="TxZ0ryvqJ0PURnpC9VBf-18" vertex="1">
             <mxGeometry x="120" y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DESENVOLVIMENTO&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="240" height="40" as="geometry" />
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxZ0ryvqJ0PURnpC9VBf-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-27" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" vertex="1" parent="1">
-          <mxGeometry x="880" y="80" width="240" height="440" as="geometry" />
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-26" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;DESENVOLVIMENTO&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" parent="1" vertex="1">
+          <mxGeometry x="640" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-27" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="280" width="240" height="440" as="geometry" />
         </mxCell>
         <object label="TO DO" status="New" id="TxZ0ryvqJ0PURnpC9VBf-28">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-27">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="TxZ0ryvqJ0PURnpC9VBf-27" vertex="1">
             <mxGeometry y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
         <object label="DONE" status="In progress" id="TxZ0ryvqJ0PURnpC9VBf-32">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-27">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" parent="TxZ0ryvqJ0PURnpC9VBf-27" vertex="1">
             <mxGeometry x="120" y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;TESTE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" vertex="1" parent="1">
-          <mxGeometry x="880" y="40" width="240" height="40" as="geometry" />
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxZ0ryvqJ0PURnpC9VBf-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="150" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-36" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="80" width="240" height="440" as="geometry" />
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-35" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;TESTE&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" parent="1" vertex="1">
+          <mxGeometry x="880" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-36" value="" style="swimlane;fontStyle=2;childLayout=stackLayout;horizontal=1;startSize=28;horizontalStack=1;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;swimlaneFillColor=none;fontFamily=Permanent Marker;fontSize=16;points=[];verticalAlign=top;stackBorder=0;resizable=1;strokeWidth=2;sketch=1;disableMultiStroke=1;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="280" width="240" height="440" as="geometry" />
         </mxCell>
         <object label="TO DO" status="New" id="TxZ0ryvqJ0PURnpC9VBf-37">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-36">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#A0522D;" parent="TxZ0ryvqJ0PURnpC9VBf-36" vertex="1">
             <mxGeometry y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
         <object label="DONE" status="In progress" id="TxZ0ryvqJ0PURnpC9VBf-41">
-          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" vertex="1" parent="TxZ0ryvqJ0PURnpC9VBf-36">
+          <mxCell style="swimlane;strokeWidth=2;fontFamily=Permanent Marker;html=0;startSize=1;verticalAlign=bottom;spacingBottom=5;points=[];childLayout=stackLayout;stackBorder=20;stackSpacing=20;resizeLast=0;resizeParent=1;horizontalStack=0;collapsible=0;sketch=1;strokeColor=none;fillStyle=solid;fillColor=#006600;" parent="TxZ0ryvqJ0PURnpC9VBf-36" vertex="1">
             <mxGeometry x="120" y="28" width="120" height="412" as="geometry" />
           </mxCell>
         </object>
-        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PRODUCAO&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="40" width="240" height="40" as="geometry" />
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TxZ0ryvqJ0PURnpC9VBf-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TxZ0ryvqJ0PURnpC9VBf-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;PRODUCAO&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeWidth=2;fontFamily=Permanent Marker;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="240" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Nesta etapa, avaliamos as necessidades do projeto e definimos os requisitos do mesmo&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="50" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-9" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Aqui, criamos um plano para definir a arquitetura, a interface e a aparência do produto&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="425" y="50" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-10" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Criar as funcionalidades do produto conforme o design e os requisitos previamente estabelecidos&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="665" y="50" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Nesta fase, submetemos o produto a testes para identificar e corrigir quaisquer problemas ou bugs&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="905" y="50" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U5G6s9EPWpfRH-iUrBrB-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Aqui o produto é implantado em ambiente de produção, pronto para ser entregue ao usuário final&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="50" width="190" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
